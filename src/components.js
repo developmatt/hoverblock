@@ -1,6 +1,12 @@
-const block = {
-    backgroundColor: "rgba(0, 0, 0, 0.7)",
-    width: "100%"
-};
+const fillerBlockStyle = `position: absolute;
+    background-color: rgba(0, 0, 0, 0.8);
+    top: -50%;
+    left: 50%;
+    transition: 0.3s;
+    padding: 0 10px;
+    box-sizing: border-box;`;
 
-export {block};
+
+const hoverBlockContent = 'position: absolute';
+
+export {fillerBlockStyle, hoverBlockContent};

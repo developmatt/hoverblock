@@ -6,13 +6,13 @@ var destiny = './dist/';
 var gulpsync = require('gulp-sync')(gulp);
 
 gulp.task('sass', function () {
-  return gulp.src('./resources/assets/sass/app.scss')
+  return gulp.src('./src/sass/bundle.scss')
     .pipe(sass({outputStyle: 'compressed'}).on('error', sass.logError))
     .pipe(gulp.dest(destiny + 'css'));
 });
 
 gulp.task('js', function () {
-    gulp.src('./src/*.js')                        // Arquivos que serão carregados, veja variável 'js' no início
+    gulp.src('./src/js/*.js')                        // Arquivos que serão carregados, veja variável 'js' no início
     .pipe(concat('bundle.js'))      // Arquivo único de saída
     .pipe(uglify())               // Transforma para formato ilegível
     .pipe(gulp.dest(destiny + 'js/'));          // pasta de destino do arquivo(s)

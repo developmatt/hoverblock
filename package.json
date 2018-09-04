@@ -5,9 +5,7 @@
   "main": "dist/js/bundle.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack",
-    "sass": "gulp sass",
-    "js": "gulp js"
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
@@ -24,14 +22,6 @@
     "@babel/core": "^7.0.0",
     "@babel/preset-env": "^7.0.0",
     "babel-loader": "^8.0.1",
-    "gulp": "^3.9.1",
-    "gulp-concat": "^2.6.1",
-    "gulp-sass": "^4.0.1",
-    "gulp-sync": "^0.1.4",
-    "gulp-uglify-es": "^1.0.4",
-    "i": "^0.3.6",
-    "npm": "^6.4.1",
-    "pump": "^3.0.0",
     "webpack": "^4.17.1",
     "webpack-cli": "^3.1.0"
   }

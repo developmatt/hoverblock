@@ -7,6 +7,6 @@ const fillerBlockStyle = `position: absolute;
     box-sizing: border-box;`;
 
 
-const hoverBlockContent = 'position: absolute; overflow: hidden';
+const hoverBlockContent = 'position: relative; overflow: hidden';
 
 export {fillerBlockStyle, hoverBlockContent};

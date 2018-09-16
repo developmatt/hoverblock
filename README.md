@@ -1,8 +1,13 @@
-
 # HoverBlock
 ![Hoverblock plugin example](https://i.postimg.cc/G2nB893T/hoverblock.gif)  
 
 ## Making it work:
+
+- Install plugin from Github or NPMJS
+`npm install --save developmatt/hoverblock-plugin` or `npm install hoverblock`
+
+- Insert it's Hoverblock in your project script
+`require('hoverblock');`
 
 - Put the data attribute `data-hoverblock="content"` in the container who contains the elements to be "hoverblocked".
 

@@ -1,12 +1,12 @@
 
 # HoverBlock
-![enter image description here](https://image.ibb.co/cdQQS9/hover2.gif)  
+![Hoverblock plugin example](https://i.postimg.cc/G2nB893T/hoverblock.gif)  
 
 ## Making it work:
 
-- Put the data attribute `data-hoverblock="content"` in the container who contains the element to be "hoverblocked".
+- Put the data attribute `data-hoverblock="content"` in the container who contains the elements to be "hoverblocked".
 
-- Inform to the plugin the blocks that will be hoverblocked putting in this the attribute `data-hoverblock=fillable-block`.;
+- Inform to plugin the blocks that will be hoverblocked putting in this the attribute `data-hoverblock=fillable-block`.;
 
 - To add text to fillable blocks, put the attribute `data-hoverblock-text="Text to be shown"` in the element, and fill the value with the desired text.
 

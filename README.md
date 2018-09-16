@@ -4,12 +4,12 @@
 ## Making it work:
 
 - Install plugin from Github or NPMJS
-`npm install --save developmatt/hoverblock-plugin` or `npm install hoverblock`
+`npm install --save developmatt/hoverblock-plugin` or `npm i --save hoverblock`
 
-- Insert it's Hoverblock in your project script
+- Insert **Hoverblock** in your project script
 `require('hoverblock');`
 
-- Put the data attribute `data-hoverblock="content"` in the container who contains the elements to be "hoverblocked".
+- Put the data attribute `data-hoverblock="content"` in the container who contains the elements that will be "hoverblocked".
 
 - Inform to plugin the blocks that will be hoverblocked putting in this the attribute `data-hoverblock=fillable-block`.;
 

@@ -1,7 +1,7 @@
 {
   "name": "hoverblock",
-  "version": "1.0.1",
-  "description": "",
+  "version": "1.0.2",
+  "description": "A elegant way to show images and it's descriptions.",
   "main": "dist/js/bundle.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",

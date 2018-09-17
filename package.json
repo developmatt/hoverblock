@@ -1,6 +1,6 @@
 {
   "name": "hoverblock",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A elegant way to show images and it's descriptions.",
   "main": "dist/js/bundle.js",
   "scripts": {
@@ -11,9 +11,18 @@
     "type": "git",
     "url": "git+https://github.com/developmatt/hoverblock.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "effect",
+    "visual",
+    "beauty",
+    "pictures"
+  ],
+  "author": {
+    "name": "Matheus Godoi",
+    "email": "hi.developmatt@gmail.com",
+    "url": "https://developmatt.com"
+  },
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/developmatt/hoverblock/issues"
   },
